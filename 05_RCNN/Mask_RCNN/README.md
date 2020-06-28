@@ -4,7 +4,7 @@
 可使用 `Mask_RCNN/samples/demo.ipynb` 進行測試<br>
 如有錯誤, 參見環境建置錯誤修復章節<br>
 
-## To Train custom database
+## To Train Custom Database
 可使用 `Mask_RCNN/samples/training_red_pyramid.py` 訓練自製資料庫<br>
 檔案有部分程式碼需修改, 詳細行數及內容如下：<br>
 1.  `#54` <br>
@@ -36,5 +36,19 @@
     ```
 
 ## To Build Training Database
+訓練自製資料庫前, 須先建立訓練用資料夾。<br>
 參考資料：https://tn00343140a.pixnet.net/blog/post/319064126-mask-rcnn%E4%BD%BF%E7%94%A8%E7%AF%87
-1.  建立環境
+1.  建立環境<br>
+    利用 `Command Prompt` 或者 `Anaconda Prompt` 建立<br>
+    ```python
+    > conda create --name=labelme
+    > activate labelme
+    > pip install labelme==3.10.0
+    > deacticate
+    ```
+2.  測試是否安裝成功<br>
+    利用 `Command Prompt` 或者 `Anaconda Prompt` 輸入：<br>
+    ```python
+    > labelme
+    ```
+    若成功開啟視窗則安裝成功。<br>
