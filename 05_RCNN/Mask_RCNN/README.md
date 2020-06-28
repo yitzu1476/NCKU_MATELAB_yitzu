@@ -82,4 +82,4 @@
     ```
     增加辨識結果圖片儲存位置 `save_dir` , 及辨識結果外框及百分比數字大小 `boxwidth` 、 `textsize` , 可應用於辨識程式最後之顯示步驟。<br>
 2.  config參數設定<br>
-    辨識程式中 config 之參數用 `config.DETECTION_MAX_INSTANCES = '欲改變參數 '` 進行更改。
+    辨識程式中 config 之參數用 `config.DETECTION_MAX_INSTANCES = '欲改變參數'` 進行更改。
