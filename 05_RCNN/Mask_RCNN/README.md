@@ -58,3 +58,8 @@
     如 `Mask_RCNN/samples/training_data/red_pyramid_training_data` 範例。<br>
     若欲使用 `Mask_RCNN/samples/training_data/red_pyramid_training_data` 進行測試, 需先將 `red_pyramid_training_data/labelme_json` 中之 `labelme_json.rar` 解壓縮, 形成 `red_pyramid_training_data/01_json` 、 `red_pyramid_training_data/02_json` ...等多個資料夾。<br>
     資料夾建立完成即可使用 `To Train Custom Database` 步驟進行訓練。
+
+## To Test Custom Database
+完成自製資料庫訓練, 可使用 `Mask_RCNN/samples/balloon/red_pyramid_detection.py` 測試<br>
+內容有部分需要更改, 如下：
+1.  
