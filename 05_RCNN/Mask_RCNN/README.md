@@ -52,3 +52,9 @@
     > labelme
     ```
     若成功開啟視窗則安裝成功。<br>
+3.  建立資料夾<br>
+    根據參考資料中之步驟建立訓練用資料夾, 將資料夾存放於 `Mask_RCNN/samples/training_data/建立之資料夾`<br>
+    資料夾中應有 `cv2_mask` 、 `json` 、 `label_json` 、 `pic` 四個資料夾<br>
+    如 `Mask_RCNN/samples/training_data/red_pyramid_training_data` 範例。<br>
+    若欲使用 `Mask_RCNN/samples/training_data/red_pyramid_training_data` 進行測試, 需先將 `red_pyramid_training_data/labelme_json` 中之 `labelme_json.rar` 解壓縮, 形成 `red_pyramid_training_data/01_json` 、 `red_pyramid_training_data/02_json` ...等多個資料夾。<br>
+    資料夾建立完成即可使用 `To Train Custom Database` 步驟進行訓練。
