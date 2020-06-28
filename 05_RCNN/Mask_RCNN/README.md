@@ -72,3 +72,14 @@
 >> case_red_pyramid_database/
 >>> mask_rcnn_shapes_0040.h5
 ```
+
+## Addition Function
+1.  本版本之 `Mask_RCNN/mrcnn/visualize.py` 檔案中有增加一副程式： `display_instances_save` , 其參數如下<br>
+    ```python
+    def display_instances_save(image, boxes, masks, class_ids, class_names,
+        scores=None, title="", figsize=(16, 16), ax=None,
+        show_mask=True, show_bbox=True, colors=None, captions=None, save_dir=None, boxwidth=2, textsize=11):
+    ```
+    增加辨識結果圖片儲存位置 `save_dir` , 及辨識結果外框及百分比數字大小 `boxwidth` 、 `textsize` , 可應用於辨識程式最後之顯示步驟。<br>
+2.  config參數設定<br>
+    辨識程式中
