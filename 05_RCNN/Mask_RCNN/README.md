@@ -44,8 +44,8 @@
     ```python
     > conda create --name=labelme
     > activate labelme
-    > pip install labelme==3.10.0
     > deacticate
+    > pip install labelme==3.10.0
     ```
 2.  測試是否安裝成功<br>
     利用 `Command Prompt` 或者 `Anaconda Prompt` 輸入：<br>
