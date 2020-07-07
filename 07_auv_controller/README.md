@@ -9,3 +9,5 @@
 6. `yaw_detection.py` 利用INS之yaw值進行航向固定<br>
 7. `AllController_2.py` 主程式中操控後驅動及剁版之程式<br>
 8. `Rudder_Controller.py` Rudder操控程式<br>
+
+* 7/7新增4-8
