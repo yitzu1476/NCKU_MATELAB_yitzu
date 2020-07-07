@@ -1,5 +1,6 @@
 # How to Mask R-CNN
-資料來源：https://github.com/matterport/Mask_RCNN
+資料來源：https://github.com/matterport/Mask_RCNN<br>
+7/7新增 HSV抓取程式: Mask_RCNN/samples/balloon/Get_HSV.ipynb<br>
 
 ## Test
 可使用 `Mask_RCNN/samples/demo.ipynb` 進行測試<br>
@@ -83,3 +84,11 @@
     增加辨識結果圖片儲存位置 `save_dir` , 及辨識結果外框及百分比數字大小 `boxwidth` 、 `textsize` , 可應用於辨識程式最後之顯示步驟。<br>
 2.  config參數設定<br>
     辨識程式中 config 之參數用 `config.DETECTION_MAX_INSTANCES = '欲改變參數'` 進行更改。
+
+## Get HSV
+主程式於 Mask_RCNN/samples/balloon/Get_HSV.ipyn<br>
+抓取結果之 lower 及 upper 值可根據環境稍作修改<br>
+注意修改限制:
+H: 0-180<br>
+S: 0-255<br>
+V: 0-255<br>
