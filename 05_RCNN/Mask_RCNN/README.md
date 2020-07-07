@@ -88,7 +88,7 @@
 ## Get HSV
 主程式於 Mask_RCNN/samples/balloon/Get_HSV.ipyn<br>
 抓取結果之 lower 及 upper 值可根據環境稍作修改<br>
-注意修改限制:
+* 注意修改限制:<br>
 H: 0-180<br>
 S: 0-255<br>
 V: 0-255<br>
